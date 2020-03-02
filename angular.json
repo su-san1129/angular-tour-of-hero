@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "angular-tour-of-heros": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-tour-of-heros"
+    }
+  },
+  "defaultProject": "angular-tour-of-heros",
+  "cli": {
+    "analytics": false
+  }
 }
